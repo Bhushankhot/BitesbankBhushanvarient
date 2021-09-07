@@ -1,0 +1,4 @@
+1. support local food establishments
+2. create profile record when signing up - done
+3. set max food menu desc word limit to 25 words
+4. direct url hit problem without login causes error
