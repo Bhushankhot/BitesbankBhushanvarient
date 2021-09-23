@@ -1,63 +1,5 @@
 /* alert message */
-<<<<<<< HEAD
-.alrt-s{
-    display: flex;
-    justify-content: center;
-    float: right;
-    align-items: center;
-    background-color: rgb(174, 221, 127);
-    animation: fadeIn 5s;
-    animation-delay: 7s;
-}
-.alrt-f{
-    display: flex;
-    justify-content: center;
-    float: right;
-    align-items: center;
-    background-color: rgb(221, 127, 127);
-    animation: fadeIn 5s;
-    animation-delay: 7s;
-}
-.alrt-text-s{
-    background-color: rgb(174, 221, 127);
-    font-family: 'Recursive', sans-serif;
-    line-height: 2em;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    padding : 1px 5px;
-}
-.alrt-text-f{
-    background-color: rgb(221, 127, 127);
-    font-family: 'Recursive', sans-serif;
-    line-height: 2em;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-    padding : 1px 5px;
-}
-.btn-cls-s{
-    display: inline-block;
-    margin-bottom: 0;
-    border: none;
-    width: 2em;
-    min-width: 6%;
-    background-color: rgb(174, 221, 127);
-}
-.btn-cls-f{
-    display: inline-block;
-    margin-bottom: 0;
-    border: none;
-    width: 2em;
-    min-width: 6%;
-    background-color: rgb(221, 127, 127);
-}
-.btn-img{
-    width:100% !important;
-}
-@keyframes fadeIn{
-    0% {opacity:1;}
-    100% {opacity:0;}
-  }
-=======
+
 .alrt-s {
   display: flex;
   justify-content: center;
@@ -119,309 +61,16 @@
     opacity: 0;
   }
 }
->>>>>>> 6b10f7c (Added admin)
 
 /* profile page */
 
 /* login page */
-<<<<<<< HEAD
-.form-s{
-    display: flex;
-    margin-right: auto;
-    margin-left:28%;
-    margin-top: 1%;
-    width: 35%;
-}
-.container-2{
-    padding-top:2%;
-    margin-bottom:auto;
-    margin-right:2%;
-    width: 45%;
-}
-#subm-btn{
-    display: block !important;
-    margin: 0% auto 2% auto !important;
-}
-#log-form{
-    width: 100%;
-}
-/* signup page */
-.form-s-u{
-    display: block;
-    margin: auto;
-    width: 35%;
-}
-/* support page */
-#helpas{
-    background-image: url(../images/bgs/support-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-#helpas-txt{
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    line-height: 9em;
-    padding-left: 5%;
-}   
-#prob-txt{
-    width: 100%;
-}
-/* index page */
-
-.btn{
-    padding: 2%;
-    border: none;
-    font-size: 1rem;
-    border-radius: 5px;
-}
-.btn-primary{
-    background-color: #ff6b81;
-    color: white;
-    cursor: pointer;
-    padding:1% 2%;
-
-}
-.btn-primary:hover{
-    color: white;
-    background-color: #ff4757;
-}
-
-h3{
-    font-size: 1.5rem;
-}
-fieldset{
-    border: 1px solid white;
-    margin: 5%;
-    padding: 3%;
-    border-radius: 5px;
-}
-
-
-/* CSS for navbar section */
-.navbar-s{
-    background-color: rgb(0, 0, 0);
-    position:sticky;
-    top:0;
-}
-.container-1{
-    display: flex;
-    max-height: 6em;
-}
-.logo-s{
-    width: 5%;
-}
-#logo-txt-real{
-    font-size: 1.75rem;
-    color: white;
-}
-.logo-txt{
-    color: white;
-    display: flex;
-    align-items: center;
-    max-height: fit-content;
-    padding-right: 1%;
-
-}
-.img-logo{
-    width: 80%;
-    vertical-align: middle;
-    margin:5%;
-    margin-left: 25% ;
-    padding-left: 10%;
-    min-height: 4em;
-}
-.log-btn{
-    line-height: 6em;
-    font-weight: bold;
-    width: 8%;
-    text-align: center;
-    margin-left: 5%;
-
-}
-.log-btn:hover{
-    border-radius: 100px;
-    background-color: white;
-}
-
-.menu{
-    line-height: 6em;
-    margin-left: auto;
-    width: 50%;
-}
-.menu ul{
-    list-style-type: none;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.menu ul li{
-    margin: 0% 4.5%;
-    width:auto;
-    font-weight: bold;
-}
-.menu ul li:hover > ul{
-    display: block;
-
-}
-.menu ul ul{
-    display: none;
-
-    width: 150%;
-    margin-left: -26%;
-    text-align: center;
-}
-.dd-menu{
-    border-radius: 20px;
-    border: 2px solid white;
-    background-color: black;
-}
-
-
-/* CSS for Restaurant Search Section */
-
-.food-search{
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding-top:12%;
-    
-}
-
-.food-search input[type="search"]{
-    width: 50%;
-    padding: 1%;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-}
-
-/* CSS for Categories */
-.categories{
-    padding: 1% 0% 3% 0%;
-}
-
-.partner-container{
-    display: flex;
-    margin: 1% 3% 2% 3%;
-}
-.box{
-    /* flex:1.44; */
-    width: calc(100%/3);
-    margin: 1%;
-}
-.imgn{
-    width: 106%;
-    height:102%;
-    vertical-align: middle;
-  }
-
-/* CSS for Food Menu */
-#container-3{
-    display: flex;
-    flex-wrap:wrap;
-    margin: 0% 6% 1% 6%;
-
-
-}
-.food-menu{
-    background-color: #ececec;
-    padding: 1% 0;
-}
-.food-menu-box{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 30%;
-    width: 46%;
-    margin: 1%;
-    padding: 1%;
-    background-color: white;
-    border-radius: 15px;
-    max-height: 13.125em;
-    min-height: 13.125em;
-}
-.align-bottom{
-    margin-right:auto;
-    margin-top:auto;
-    
-}
-
-.food-menu-img{
-    display: inline-block;
-    max-width: 10.5em;
-    width: 100%;
-    max-height: 13.125em;
-}
-.food-menu-img img{
-    max-height: 13.125em;
-    max-width: 10.5em;
-    min-width: 10.5em;
-    width: 106%;
-    height:102%;
-    vertical-align: middle;
-}
-
-.food-menu-desc{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    margin-left: 4%;
-    padding-top: 1%;
-    max-width: 32em;
-}
-
-.food-price{
-    font-size: 1.2rem;
-    margin: 2% 0;
-}
-.food-detail{
-    font-size: 1rem;
-    color: #747d8c;
-}
-
-
-/* CSS for Social */
-.social ul{
-    list-style-type: none;
-}
-.social ul li{
-    display: inline;
-    padding: 1%;
-}
-
-/* for Order Section */
-.order{
-    width: 50%;
-    margin: 0 auto;
-}
-.input-responsive{
-    width: 96%;
-    padding: 1%;
-    margin-bottom: 3%;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-.order-label{
-    margin-bottom: 1%; 
-    font-weight: bold;
-}
-.footer{
-    background: rgb(0, 0, 0);
-}
-#recon{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:white;
-=======
 .form-s {
   display: flex;
   margin-right: auto;
   margin-left: 28%;
   margin-top: 1%;
   width: 35%;
-  padding-left: 5%;
 }
 .container-2 {
   padding-top: 2%;
@@ -492,6 +141,7 @@ fieldset {
   background-color: rgb(0, 0, 0);
   position: sticky;
   top: 0;
+  font-family: fantasy;
 }
 .container-1 {
   display: flex;
@@ -499,10 +149,6 @@ fieldset {
 }
 .logo-s {
   width: 5%;
-}
-#logolink {
-  font-size: 1.75rem;
-  color: white;
 }
 #logo-txt-real {
   font-size: 1.75rem;
@@ -524,13 +170,15 @@ fieldset {
   min-height: 4em;
 }
 .log-btn {
+  line-height: 6em;
   font-weight: bold;
+  width: 8%;
   text-align: center;
-  margin-right: 4%;
+  margin-left: 5%;
 }
 .log-btn:hover {
-  background-color: rgb(120, 23, 150);
-  transition: bottom ease-in-out 0.4s;
+  border-radius: 100px;
+  background-color: white;
 }
 
 .menu {
@@ -543,16 +191,6 @@ fieldset {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-}
-
-.menu a {
-  color: #fe2243;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-}
-.menu a:hover {
-  color: #f8b3b3;
 }
 
 .menu ul li {
@@ -571,7 +209,9 @@ fieldset {
   text-align: center;
 }
 .dd-menu {
-  background-color: rgb(153, 236, 241);
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: black;
 }
 
 /* CSS for Restaurant Search Section */
@@ -700,114 +340,14 @@ fieldset {
 }
 .footer {
   background: rgb(0, 0, 0);
-  width: 100%;
-  align-items: bottom;
-}
-
-.footer a {
-  color: red;
 }
 #recon {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
->>>>>>> 6b10f7c (Added admin)
 }
 
 /* CSS for Mobile Size or Smaller Screen */
 
-<<<<<<< HEAD
-@media only screen and (max-width:768px){
-    .logo-s{
-        width: 25%;
-        margin-left: 31%;
-        
-    }
-    .log-btn{
-            line-height: 4em;
-            font-weight: bold;
-            width: 15%;
-            text-align: center;
-            margin-left: 5%;
-    }
-    .respon-nav{
-        margin: auto;
-    }
-    .navbar-s{
-        position: static;
-    }
-    .menu{
-        line-height: 2rem;
-        display: flex;
-        /* flex-direction: column; */
-        margin: auto;
-        /* font-size: 0rem; */
-        width: 80%;
-    }
-    .container-1{
-        display: flex;
-        flex-direction: column;
-        max-height: fit-content;
-        justify-content: center;
-    }
-    .menu ul{
-        text-align: center;
-        margin: auto;
-        justify-content: center;
-    }
-
-    .food-search input[type="search"]{
-        width: 90%;
-        padding: 2%;
-        margin-bottom: 10%;
-    }
-
-    .btn{
-        width: 75%;
-        padding: 2%;
-    }
-
-    .food-search{
-        padding: 10%;
-    }
-
-    .categories{
-        padding: 20% 0;
-    }
-    h2{
-        margin-bottom: 10%;
-    }
-    .box-3{
-        width: 100%;
-        margin: 4% auto;
-    }
-
-    .food-menu{
-        padding: 20% 0;
-    }
-
-    .food-menu-box{
-        width: 90%;
-        padding: 5%;
-        margin-bottom: 5%;
-    }
-    .food-menu-desc{
-        width:50%;
-    }
-    .food-detail{
-        display: none;
-    }
-    .food-menu-img{
-        width:51%;
-        padding-right: 2%;
-    }
-    .footer{
-        padding: 5% 0;
-    }
-    .order{
-        width: 100%;
-    }
-}
-=======
 @media only screen and (max-width: 768px) {
   .logo-s {
     width: 25%;
@@ -898,4 +438,3 @@ fieldset {
     width: 100%;
   }
 }
->>>>>>> 6b10f7c (Added admin)

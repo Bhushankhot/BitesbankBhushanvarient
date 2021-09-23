@@ -19,12 +19,9 @@
     <div class="text-center container-2">
         Dont have an account yet?
         <a href='signup.php'><button class="mt btn btn-primary">Click here to Register</button></a>
-<<<<<<< HEAD
-=======
         <h3>Or</h3>
         Sign in as admin
         <a href="../admin/adminindex.php"><button class="mt btn btn-primary">Admin login</button></a>
->>>>>>> 6b10f7c (Added admin)
     </div>
     <div id="log-form">
         <form action='login.php' class=" bootstrap-iso" method="POST">

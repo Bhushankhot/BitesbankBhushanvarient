@@ -3,7 +3,7 @@
     <div class="main-content">
         <div class="wrapper">
         <h1>Manage Food</h1>
-        
+          <br><br>
         <a href="#" class=" btn-primary"> Add admin </a>
         <br>
         <br>

@@ -81,7 +81,7 @@
                 $full_name = $_POST['full_name'];
                 $username =$_POST['username'];
 
-                    $sql= " UPDATE adminb SET
+                $sql= " UPDATE adminb SET
                 full_name='$full_name',
                 username='$username'
                 WHERE id='$id'

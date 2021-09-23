@@ -1,4 +1,8 @@
-<?php include("../config/constants.php") ?>
+<?php 
+    include("../config/constants.php") ;
+    include("../admin/login-check.php");
+
+?>
 
 
 <!DOCTYPE html>
@@ -22,6 +26,7 @@
                 <li><a href="../admin/manage-catogories.php"> Category</a></li>
                 <li><a href="../admin/manage-food.php"> Food</a></li>
                 <li><a href="../admin/manage-order.php">Order</a></li>
+                 <li><a href="../admin/logout-admin.php">Logout</a></li>
             
                
             </ul>

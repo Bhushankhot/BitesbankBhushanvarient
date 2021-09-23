@@ -1,4 +1,25 @@
 <!-- Navbar Section Starts Here -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitesBank - Help</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap-iso.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/custom-bootstrap.css">
+    
+    <script src="../js/index.js"></script>
+</head> 
+
 <section class="navbar-s">
         <div class="container-1">
             <div class="logo-s">
@@ -7,21 +28,12 @@
             </a>
             </div>    
             <div class='logo-txt respon-nav'>
-<<<<<<< HEAD
-                <h1 id='logo-txt-real'>BitesBank</h1>
+                 <a href="../php/index.php" >
+                    <h1 id='logo-txt-real' href='../php/index.php'>BitesBank</h1>
+                </a>
             </div>
-            <div class="log-btn respon-nav">
+            <!-- <div class="log-btn respon-nav">
             <?php if(!isset($_SESSION['logstat']) || $_SESSION['logstat']!=true)
-=======
-                <li id="logolink"><a href="../php/index.php" style="font-size: 1.75rem;color: white;ffont-weight: bold;font-family:none;margin-left:0">BitesBank</a></li>
-                <!-- <h1 id='logo-txt-real'>BitesBank</h1> -->
-            </div>
-
-            <div class="menu text-center respon-nav">
-                <ul>
-                    <div class="log-btn respon-nav">
-                <?php if(!isset($_SESSION['logstat']) || $_SESSION['logstat']!=true)
->>>>>>> 6b10f7c (Added admin)
                     {    
                         echo '<a href="../php/login.php">Login';
                     }
@@ -30,19 +42,24 @@
                         echo '<a href="../php/mycart.php">My Cart';
                     }
             ?>
-            </a></div>
-<<<<<<< HEAD
+            </a></div> -->
             <div class="menu text-center respon-nav">
                 <ul>
+
                     <li>
-                        <a href="../php/index.php">Explore</a>
-=======
-                     <li>
-                        <a href="../php/index.php">Home</a>
-                    </li>
+                        <?php if(!isset($_SESSION['logstat']) || $_SESSION['logstat']!=true)
+                    {    
+                        echo '<a href="../php/login.php">Login';
+                    }
+                  else
+                    {
+                        echo '<a href="../php/mycart.php">My Cart';
+                    }
+            ?>
+                        
+                </li>
                     <li>
                         <a href="../php/explore.php">Explore</a>
->>>>>>> 6b10f7c (Added admin)
                     </li>
                     <li>
                         <a href="#">Your Account</a>

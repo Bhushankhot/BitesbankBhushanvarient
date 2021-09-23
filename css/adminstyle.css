@@ -92,6 +92,7 @@ table tr td {
 .btn-primary {
   background-color: rgb(11, 151, 216);
   padding: 1%;
+  margin-right: 1%;
   color: white;
   font-weight: bold;
   text-decoration: none;

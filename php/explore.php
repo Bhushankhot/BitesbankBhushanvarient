@@ -6,7 +6,10 @@
 <head>
 
     <!-- Link our CSS file -->
-    <link rel="stylesheet" href="../css/explore-page.css">
+    <link rel="stylesheet" href="../css/explore-page.css"> 
+    <link rel="stylesheet" href="../css/bootstrap-iso.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/custom-bootstrap.css">
 </head>
 
 <body>
@@ -122,7 +125,7 @@
 
     <!-- social Section Starts Here -->
     <section class="social">
-        <div class="container text-center">
+        <div class="container text-center" style=" background-color: black; width: 98%;">
             <ul>
                 <li>
                     <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
