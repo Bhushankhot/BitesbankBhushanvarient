@@ -91,6 +91,21 @@
   margin: auto;
   width: 35%;
 }
+
+.homepagess {
+  text-align: center;
+  background-color: rgb(7, 1, 7);
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: block;
+}
+
+.homepagess:hover {
+  background-color: rgb(163, 36, 153);
+}
 /* support page */
 #helpas {
   background-image: url(../images/bgs/support-bg.jpg);
@@ -108,7 +123,9 @@
   width: 100%;
 }
 /* index page */
-
+.float-container {
+  position: relative;
+}
 .btn {
   padding: 2%;
   border: none;
@@ -125,6 +142,18 @@
   color: white;
   background-color: #ff4757;
 }
+.btn-successs {
+  border: 2px groove red;
+  padding: 5px;
+  background-color: #15b33c;
+  color: white;
+  cursor: pointer;
+  padding: successs;
+}
+.btn-successs:hover {
+  color: white;
+  background-color: #093503;
+}
 
 h3 {
   font-size: 1.5rem;
@@ -136,6 +165,17 @@ fieldset {
   border-radius: 5px;
 }
 
+.box-4 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+.categoriessss {
+  padding: 4% 0;
+  position: static;
+}
+
 /* CSS for navbar section */
 .navbar-s {
   background-color: rgb(0, 0, 0);
@@ -143,6 +183,7 @@ fieldset {
   top: 0;
   font-family: fantasy;
 }
+
 .container-1 {
   display: flex;
   max-height: 6em;
@@ -264,6 +305,7 @@ fieldset {
 }
 .food-menu-box {
   display: flex;
+  float: left;
   flex-wrap: nowrap;
   height: 30%;
   width: 46%;
@@ -407,9 +449,11 @@ fieldset {
   h2 {
     margin-bottom: 10%;
   }
+
   .box-3 {
-    width: 100%;
-    margin: 4% auto;
+    width: 28%;
+    float: left;
+    margin: 2%;
   }
 
   .food-menu {

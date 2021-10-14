@@ -15,8 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap-iso.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap-iso.css">
+    
     <link rel="stylesheet" href="../css/custom-bootstrap.css">
     <script src="../js/index.js"></script>
 </head>
@@ -58,19 +59,19 @@
         <div class="partner-container">
             
             <div class="box">
-                <a href="category-foods.html">
+                <a href="category-foods.php">
                     <img src="../images/restos/kfc.jpg" alt="Pizza" class="imgn img-curve">
                 </a>
             </div>
             
             <div class="box">
-                <a href="#">
+                <a href="category-foods.php">
                     <img src="../images/restos/taco.jpg" alt="Momo" class="imgn img-curve">
                 </a>
             </div>
             
             <div class="box">
-                <a href="#">
+                <a href="category-foods.php">
                     <img src="../images/restos/mcd.jpg" alt="Burger" class="imgn img-curve">
                 </a>
             </div>
@@ -80,6 +81,67 @@
     </section>
 
 <!-- Partner Resto Section -->
+<!-- category sections starts here -->
+  <!-- <section class='categories'>
+        
+        <h2 class="text-center">Explore category</h2>
+        <div class="container">
+
+        /*<?php
+        /*
+            define('SITEURL','https://localhost/BitesBank/');
+            define('LOCALHOST', 'localhost');
+            define('DB_USERNAME','root');
+            define('DB_PASSWORD', '');
+            define('DB_NAME','bitesbank');
+
+            $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysql_error());
+
+            $db_select= mysqli_select_db($conn,DB_NAME) or die(mysqli_error());
+
+            $sql= "SELECT * FROM category";
+            $res= mysqli_query($conn, $sql);
+            $count= mysqli_num_rows($res);
+
+        
+                if($count>0)
+                {       
+                    $sn=1;
+                     while($rows=mysqli_fetch_assoc($res))
+                    {
+                        $id=$rows['id'];
+                        $title= $rows['title'];
+                        $img_name=$rows['img_name'];
+                        ?>
+                            <div class="box-3 float-container">
+                            <a href="category-foods.php">
+                                <img  src="<?php echo SITEURL;?>images/category/<?php echo $img_name;?>" alt="Pizza" style="height:400px;class="img-responsive img-curve">
+                            </a>
+                            </div>
+
+                            <!-- style="width:90%; height: 70%; padding-left:2%;" -->
+                        <?php
+
+
+                    }
+                }
+                else
+                {
+                     echo "<div class='error'>Category not found</div>";
+                }
+                */
+                        ?>
+
+        
+             -->
+            
+           
+            <div class="clearfix"></div>
+        </div> 
+        
+    </section>
+
+           
 
 <!-- Limited Time Offers -->
 

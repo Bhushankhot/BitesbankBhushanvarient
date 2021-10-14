@@ -13,17 +13,18 @@
     <link rel="stylesheet" href="../css/custom-bootstrap.css">
 </head>
 <body>
-<?php include("../partials/header.php") ?>
-
-<div class="form-s">
-    <div class="text-center container-2">
+<?php 
+    include("../partials/login-header.php");
+?>
+<div class="form-s" style="padding-top: 5%;padding-bottom: 5%;border:11px groove red;padding-left:3% ;padding-right:3%">
+    <div class="text-center container-2" style="padding-left: 20px;">
         Dont have an account yet?
-        <a href='signup.php'><button class="mt btn btn-primary">Click here to Register</button></a>
+        <a href='signup.php'><button class="mt btn btn-successs">Click here to Register</button></a>
         <h3>Or</h3>
         Sign in as admin
-        <a href="../admin/adminindex.php"><button class="mt btn btn-primary">Admin login</button></a>
+        <a href="../admin/adminindex.php"><button class="mt btn btn-successs">Admin login</button></a>
     </div>
-    <div id="log-form">
+    <div id="log-form" style="padding-left:50px;" >
         <form action='login.php' class=" bootstrap-iso" method="POST">
             <div class="mb mt">
                 <label for="phone" class="form-label">Phone Number</label>
@@ -38,10 +39,12 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Remember me</label>
             </div>
-            <button id="subm-btn" type="submit" class="mb btn btn-primary">Submit</button>
+             <a href='signup.php'><button id="subm-btn" type="submit" class="mb btn btn-primary">Submit</button>
         </form>
     </div>
 </div>
+
+<a href='index.php'><button class="homepagess"> Back to homepage</button></a>
 
 <?php
     if ($_SERVER['REQUEST_METHOD'] == "POST")
@@ -68,7 +71,7 @@
             {
                 if($pass==$row['pass'])
                 {
-                    echo "Logged IN";
+                    // echo "Logged IN";
                     session_start();
                     $_SESSION['logstat']=true;
                     $_SESSION['phone']=$phone;

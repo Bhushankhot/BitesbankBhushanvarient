@@ -1,4 +1,6 @@
-<?php include('../config/constants.php') ?>
+<?php 
+include('../config/constants.php')
+ ?>
 
 
 <!DOCTYPE html>
@@ -31,20 +33,28 @@
                 unset($_SESSION['no-login-msg']);
             }
 ?>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    <div class="form-s" style="padding-top: 5%;padding-bottom: 5%;border:11px groove red;padding-left:3% ;padding-right:3%">
     <div id="log-form">
         <form action='' class=" bootstrap-iso text-center" method="POST">
             <div class="mb mt" style="text-align:center;">
                 <label for="username" class="form-label">Username</label>
-                <input type="text" name="username" class="form-control" id="phone"style="width:20%; text-align:center; margin-left:40%" >
+                <input type="text" name="username" class="form-control" id="phone"style="width:40%; text-align:center; margin-left:30%" >
             </div>
             <div class="mb mt" style="text-align:center;">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" name="password" class="form-control" id="password" style="width:20%; text-align:center; margin-left:40%">
+                <input type="password" name="password" class="form-control" id="password" style="width:40%; text-align:center; margin-left:30%">
             </div>
             <input type ="submit" name="submit" value= "login" class="btn-primary" style="width:20%; text-align:center; ;">
         </form>
     </div>
 </div>
+        </div>
 
 
 
@@ -65,6 +75,7 @@
                 $_SESSION['login']= "<div class='success'>Login Successfull.</div>";
                 $_SESSION['user']= $username;
                 header("Location:".SITEURL.'admin/adminindex.php');
+                // alerts('Success ! You have been logged in.');
             }
             else
             {

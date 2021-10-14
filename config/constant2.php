@@ -1,7 +1,4 @@
 <?php
-    ob_start();
-    session_start();
-    
 
     define('SITEURL','https://localhost/BitesBank/');
     define('LOCALHOST', 'localhost');

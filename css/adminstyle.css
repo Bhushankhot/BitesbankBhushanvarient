@@ -141,3 +141,38 @@ table tr td {
   width: 98%;
   text-align: center;
 }
+
+.alrt-s {
+  display: flex;
+  justify-content: center;
+  float: right;
+  align-items: center;
+  background-color: rgb(174, 221, 127);
+  animation: fadeIn 5s;
+  animation-delay: 7s;
+}
+.alrt-f {
+  display: flex;
+  justify-content: center;
+  float: right;
+  align-items: center;
+  background-color: rgb(221, 127, 127);
+  animation: fadeIn 5s;
+  animation-delay: 7s;
+}
+.alrt-text-s {
+  background-color: rgb(174, 221, 127);
+  font-family: "Recursive", sans-serif;
+  line-height: 2em;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 1px 5px;
+}
+.alrt-text-f {
+  background-color: rgb(221, 127, 127);
+  font-family: "Recursive", sans-serif;
+  line-height: 2em;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 1px 5px;
+}

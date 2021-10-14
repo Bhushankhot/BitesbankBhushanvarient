@@ -1,4 +1,3 @@
-<!-- Navbar Section Starts Here -->
 
 
 
@@ -16,7 +15,6 @@
     <link rel="stylesheet" href="../css/bootstrap-iso.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/custom-bootstrap.css">
-    
     <script src="../js/index.js"></script>
 </head> 
 
@@ -24,12 +22,12 @@
         <div class="container-1">
             <div class="logo-s">
             <a href="../php/index.php" title="Logo">
-                    <img src="../images/templogo.jpg" alt="Restaurant Logo" class="img-logo">
+                    <img src="../images/templogo.jpg" style="text-align:center" alt="Restaurant Logo" class="img-logo">
             </a>
             </div>    
             <div class='logo-txt respon-nav'>
                  <a href="../php/index.php" >
-                    <h1 id='logo-txt-real' href='../php/index.php'>BitesBank</h1>
+                    <h1 id='logo-txt-real' href='../php/index.php' style="text-align:center">BitesBank</h1>
                 </a>
             </div>
             <!-- <div class="log-btn respon-nav">
@@ -61,6 +59,7 @@
                     <li>
                         <a href="../php/explore.php">Explore</a>
                     </li>
+                     
                     <li>
                         <a href="#">Your Account</a>
                         <ul> 
